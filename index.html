@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Hanan - Graphic & UI Designer">
+    <title>Hanan | Graphic & UI Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hanan</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Hi, I'm Hanan</h2>
+                <p class="hero-subtitle">Graphic & UI Designer</p>
+                <p class="hero-description">Creating stunning visual experiences and intuitive user interfaces that bring ideas to life</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Creative Designer & Digital Artist</h3>
+                    <p>I'm a passionate graphic and UI designer with expertise in creating visually compelling designs and user-centered digital experiences. With a strong foundation in design principles and a keen eye for aesthetics, I transform complex ideas into beautiful, functional designs.</p>
+                    <p>My approach combines creativity, strategy, and technology to deliver designs that not only look great but also solve real problems and engage users effectively.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Specialization:</span>
+                            <span class="info-value">Graphic & UI Design</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Experience:</span>
+                            <span class="info-value">5+ Years</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Projects Completed:</span>
+                            <span class="info-value">50+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ui">UI Design</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile App UI</h3>
+                        <p>Modern mobile app interface design</p>
+                        <span class="category">UI Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package design</p>
+                        <span class="category">Graphic Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Web Design</h3>
+                        <p>Responsive website design</p>
+                        <span class="category">UI Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Logo Design</h3>
+                        <p>Professional logo creation</p>
+                        <span class="category">Branding</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Print Design</h3>
+                        <p>Magazine and brochure layouts</p>
+                        <span class="category">Graphic Design</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Dashboard Design</h3>
+                        <p>Analytics dashboard interface</p>
+                        <span class="category">UI Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and beautiful user interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual design and illustration</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tag"></i>
+                    <h3>Branding</h3>
+                    <p>Building strong brand identities</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Layout Design</h3>
+                    <p>Professional print and digital layouts</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Prototyping</h3>
+                    <p>Interactive prototypes and mockups</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Responsive and modern web design</p>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h3>Design Tools I Use</h3>
+                <div class="tools-list">
+                    <span class="tool">Adobe XD</span>
+                    <span class="tool">Figma</span>
+                    <span class="tool">Adobe Photoshop</span>
+                    <span class="tool">Adobe Illustrator</span>
+                    <span class="tool">Sketch</span>
+                    <span class="tool">Adobe InDesign</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'd love to hear from you. Let's discuss your next project!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:hanan@example.com">hanan@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Hanan - Graphic & UI Designer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
